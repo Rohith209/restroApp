@@ -1,0 +1,3776 @@
+{
+    "experiments": [
+        {
+            "experimentId": "menu_via_timeline",
+            "variantId": "true"
+        }
+    ],
+    "restaurantAttributes": [],
+    "id": "99617",
+    "name": "Food Corner",
+    "uuid": "763ef29e-a111-466a-95d2-c14bad76ec35",
+    "slug": "food-corner-aditya-nagar-aditya-nagar",
+    "latLong": "14.447548,79.980681",
+    "city": "Nellore",
+    "area": "Leela mahal road",
+    "areaPostalCode": "0",
+    "areaSlug": "Nellore Area",
+    "restaurantSlug": {
+        "restaurant": "food-corner-aditya-nagar-aditya-nagar",
+        "city": "nellore"
+    },
+    "type": "F",
+    "locality": "Leela Mahal Rd",
+    "avgRating": 4,
+    "totalRatings": 1000,
+    "avgRatingString": "4.0",
+    "totalRatingsString": "1K+ ratings",
+    "cloudinaryImageId": "p3hce60wrzkxthnl0ytw",
+    "costForTwo": 15000,
+    "costForTwoMsg": "₹150 for two",
+    "cuisines": [
+        "Chinese"
+    ],
+    "minimumOrder": 0,
+    "opened": 1,
+    "parentId": 12695,
+    "isNew": false,
+    "isVeg": false,
+    "favorite": false,
+    "multiOutlet": false,
+    "restaurantServiceLine": [
+        "REGULAR"
+    ],
+    "sla": {
+        "slaString": "14 MINS",
+        "lastMileDistanceString": "0.9 kms",
+        "restaurantId": "99617",
+        "deliveryTime": 14,
+        "minDeliveryTime": 14,
+        "maxDeliveryTime": 14,
+        "lastMileTravel": 0.9,
+        "thirtyMinOrFree": false,
+        "serviceability": "SERVICEABLE",
+        "stressFactor": 0.9838968515396118,
+        "rainMode": "NONE",
+        "longDistance": "NOT_LONG_DISTANCE",
+        "preferentialService": false,
+        "batchable": false,
+        "stress": {
+            "value": 0.3333333432674408,
+            "components": {
+                "de": 0.3333333432674408
+            }
+        },
+        "surge": {
+            "applicable": false,
+            "components": [
+                {
+                    "value": 0,
+                    "type": "STRESS"
+                }
+            ]
+        },
+        "zoneId": 3262
+    },
+    "availability": {
+        "nextCloseTime": "2023-03-02 00:00:00",
+        "nextChangeTime": 1677695400000,
+        "visibility": true,
+        "opened": true
+    },
+    "badges": {
+        "imageBased": [],
+        "textBased": [],
+        "textExtendedBadges": []
+    },
+    "labels": [
+        {
+            "title": "Timings",
+            "message": "null"
+        },
+        {
+            "title": "Address",
+            "message": "Leela mahal theatre,Nellore"
+        },
+        {
+            "title": "Cuisines",
+            "message": "Chinese"
+        }
+    ],
+    "thirdPartyAddress": false,
+    "menu": {
+        "items": {
+            "27668997": {
+                "id": 27668997,
+                "name": "Chicken Manchurian",
+                "category": "Non Veg Starter",
+                "description": "Delicious fried chicken in slightly sweet, hot & sour Manchurian sauce",
+                "cloudinaryImageId": "cdd8432260886629cdaf7f8cbaf5cbac",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "27669006": {
+                "id": 27669006,
+                "name": "Schezwan Noodles",
+                "category": "Noodles",
+                "description": "A hot and spicy combo of hot and fiery vegetable Schezwan gravy served with flavored noodles.",
+                "cloudinaryImageId": "7207843277ce610a2dfb17a54be05023",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "27669011": {
+                "id": 27669011,
+                "name": "Schezwan Chicken Noodles",
+                "category": "Noodles",
+                "description": "Wholesome stir soft noodles topped with juicy chicken chunks and grated vegetables in a thick and spicy Schezwan sauce.",
+                "cloudinaryImageId": "ui7b1humlxufxfjfmwk2",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219322": {
+                "id": 99219322,
+                "name": "Chilli Chicken",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219323": {
+                "id": 99219323,
+                "name": "Chicken 65",
+                "category": "Non Veg Starter",
+                "description": "Succulent chicken chunks dipped in a seasoned batter and fried to golden perfection served with a dip",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219324": {
+                "id": 99219324,
+                "name": "Chicken LollIpop",
+                "category": "Non Veg Starter",
+                "description": "Everyone's favorite home-spiced chicken lollipop dipped in a flavorful batter and deep fried to perfection.",
+                "cloudinaryImageId": "fb3f51b0fb6cefd485d9495d80030fbb",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219325": {
+                "id": 99219325,
+                "name": "Chicken Wings",
+                "category": "Non Veg Starter",
+                "description": "Sinfully juicy and crispy chicken wings cooked to perfection served with a dip.",
+                "cloudinaryImageId": "ve4ssdzyzwhbin6n5hoj",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219326": {
+                "id": 99219326,
+                "name": "Chicken Tikka",
+                "category": "Non Veg Starter",
+                "description": "Super soft chunks of chicken are coated with a spicy and peppery masala and grilled to perfection.",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219327": {
+                "id": 99219327,
+                "name": "Chicken Majestic",
+                "category": "Non Veg Starter",
+                "description": "Fried chicken coated in a spicy tangy yogurt based sauce You will bite onto slightly crispy chicken thats tender and juicy from the inside",
+                "cloudinaryImageId": "tey6g2izfza5vybrxymn",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219328": {
+                "id": 99219328,
+                "name": "Garlic Chicken",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219330": {
+                "id": 99219330,
+                "name": "Chicken Joints (3 pcs)",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219331": {
+                "id": 99219331,
+                "name": "Dragon Chicken",
+                "category": "Non Veg Starter",
+                "description": "A classic fried chicken-in-sauce kinda recipe which is made of thin strips of chicken which is and fried and sauteed in a rich red sauce",
+                "cloudinaryImageId": "fxt2r2al6f4ijffmu6nn",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 25000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219332": {
+                "id": 99219332,
+                "name": "Egg Manchurian",
+                "category": "Non Veg Starter",
+                "description": "Deep-fried, egg tossed in a thick and spicy Manchurian gravy.",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219333": {
+                "id": 99219333,
+                "name": "Egg Chilli",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219334": {
+                "id": 99219334,
+                "name": "Egg 65",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219335": {
+                "id": 99219335,
+                "name": "Crispy Egg Manchurian",
+                "category": "Non Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219336": {
+                "id": 99219336,
+                "name": "Tomato Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "hy6d8ep4ofzc38wiqygs",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219337": {
+                "id": 99219337,
+                "name": "Veg Hot & Sour Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219338": {
+                "id": 99219338,
+                "name": "Veg Sweet Corn Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "zc6pfaocu0bqzmhsazg8",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219339": {
+                "id": 99219339,
+                "name": "Veg Manchow Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219340": {
+                "id": 99219340,
+                "name": "Chicken Sweet Corn Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219341": {
+                "id": 99219341,
+                "name": "Chicken Hot & Sour Soup",
+                "category": "Soups",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219342": {
+                "id": 99219342,
+                "name": "Veg Spring Roll",
+                "category": "Spring Rolls",
+                "description": "",
+                "cloudinaryImageId": "924427807b93be023f9a62be6f70e799",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219343": {
+                "id": 99219343,
+                "name": "Egg Spring Roll",
+                "category": "Spring Rolls",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219344": {
+                "id": 99219344,
+                "name": "Paneer Spring Roll",
+                "category": "Spring Rolls",
+                "description": "",
+                "cloudinaryImageId": "b7b19e2f9cb8279aa0b6bd9faf2d1cbb",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219345": {
+                "id": 99219345,
+                "name": "Mushroom Spring Roll",
+                "category": "Spring Rolls",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219346": {
+                "id": 99219346,
+                "name": "Chicken Spring Roll",
+                "category": "Spring Rolls",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219347": {
+                "id": 99219347,
+                "name": "Veg Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "0d1c71b2f7cf2a25fd94a96500040c91",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 6000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219348": {
+                "id": 99219348,
+                "name": "Egg Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "a8de0863ddbbc6295b3dcee47526fad0",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219349": {
+                "id": 99219349,
+                "name": "Veg Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "9c56917b8fe2fd25694214e227345d73",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219350": {
+                "id": 99219350,
+                "name": "Double Egg Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "fa55957b40cd03d521be5d3e5e0bb7ab",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219351": {
+                "id": 99219351,
+                "name": "Egg Noodles",
+                "category": "Noodles",
+                "description": "An aromatic and mouthwatering dish prepared from noodles and eggs",
+                "cloudinaryImageId": "h4gtbmhoccamlvdyia0n",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219352": {
+                "id": 99219352,
+                "name": "Paneer Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "1e9bf048c52c8b378b655940731284c1",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219353": {
+                "id": 99219353,
+                "name": "Gobi Noodles",
+                "category": "Noodles",
+                "description": "Boiled noodles, strips of vegetables, and gobi chunks stir fried with rich spices.",
+                "cloudinaryImageId": "hfg7tyvrqgwgds6uha7b",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219354": {
+                "id": 99219354,
+                "name": "Mushroom Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219355": {
+                "id": 99219355,
+                "name": "Paneer Noodles",
+                "category": "Noodles",
+                "description": "A deliciously hearty scrumptious stir fried noodles with mixed vegetables and paneer.",
+                "cloudinaryImageId": "wh329kkrfrdeslpyuheb",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219356": {
+                "id": 99219356,
+                "name": "Chicken Roll",
+                "category": "Kathi Roll",
+                "description": "A Scrumptious Roll Stuffed Generously With Juicy Chicken Chunks And Assorted Veggies Served.",
+                "cloudinaryImageId": "yuhkr4q22xdz4fkqqpqe",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219357": {
+                "id": 99219357,
+                "name": "Mushroom Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219358": {
+                "id": 99219358,
+                "name": "Egg Keema Roll",
+                "category": "Kathi Roll",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219359": {
+                "id": 99219359,
+                "name": "Kaju Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219361": {
+                "id": 99219361,
+                "name": "Chicken Noodles",
+                "category": "Noodles",
+                "description": "An aromatic and mouthwatering dish prepared from noodles and strips of juicy chicken.",
+                "cloudinaryImageId": "y4rq6juhnupp5rqxpjkc",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219364": {
+                "id": 99219364,
+                "name": "Schezwan Mushroom Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219367": {
+                "id": 99219367,
+                "name": "Veg Singapore Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219369": {
+                "id": 99219369,
+                "name": "Chicken Triple Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219370": {
+                "id": 99219370,
+                "name": "Mix Gobi & Egg Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219372": {
+                "id": 99219372,
+                "name": "Mix Gobi & Paneer Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219374": {
+                "id": 99219374,
+                "name": "Mix Gobi & Kaju Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219375": {
+                "id": 99219375,
+                "name": "Mix Paneer & Kaju Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219376": {
+                "id": 99219376,
+                "name": "Veg Rice",
+                "category": "Rice Item",
+                "description": "Fresh veggies tossed in a pan with steamed rice and flavorful spices - perfect to satisfy your hunger pangs.",
+                "cloudinaryImageId": "81cc3a566a489da354b950f5b76a422f",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 8000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219377": {
+                "id": 99219377,
+                "name": "Egg Rice",
+                "category": "Rice Item",
+                "description": "Simple, aromatic, and healthy meal of scrambled eggs stir fried with rice.",
+                "cloudinaryImageId": "w3dq4hg0aigmnrabsdds",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219378": {
+                "id": 99219378,
+                "name": "Gobi Rice",
+                "category": "Rice Item",
+                "description": "Fresh veggies and crispy gobi florets tossed in a pan with steamed rice and flavorful spices - perfect to satisfy your hunger pangs.",
+                "cloudinaryImageId": "phawndpvbd2xylyhyuww",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219379": {
+                "id": 99219379,
+                "name": "Paneer Rice",
+                "category": "Rice Item",
+                "description": "Fresh veggies and soft paneer tossed in a pan with steamed rice and flavorful spices - perfect to satisfy your hunger pangs.",
+                "cloudinaryImageId": "5d5acd7216aff0ca67623dfabef917bf",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219380": {
+                "id": 99219380,
+                "name": "Mushroom Rice",
+                "category": "Rice Item",
+                "description": "Fresh veggies and mushoorm tossed in a pan with steamed rice and flavorful sauces and spices.",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219381": {
+                "id": 99219381,
+                "name": "Kaju Rice",
+                "category": "Rice Item",
+                "description": "This authentic Chinese kaju fried rice is cooked with assorted vegetables and crispy kaju nuts and can be accompained with gravy dishes.",
+                "cloudinaryImageId": "ilp5brefvgrurpm716ae",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219382": {
+                "id": 99219382,
+                "name": "Jeera Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "nzm1wmx8e70iahdtz7ck",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219383": {
+                "id": 99219383,
+                "name": "Baby Corn Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219384": {
+                "id": 99219384,
+                "name": "Veg Singapore Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219385": {
+                "id": 99219385,
+                "name": "Chicken Fried Rice",
+                "category": "Rice Item",
+                "description": "Wholesome stir-fried rice topped with juicy chicken chunks and grated vegetables.",
+                "cloudinaryImageId": "frj7npafgrjqsmhrneei",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219386": {
+                "id": 99219386,
+                "name": "Schezwan Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 10000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219387": {
+                "id": 99219387,
+                "name": "Schezwan Gobi Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "phxyihywogtcefse2zlw",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219388": {
+                "id": 99219388,
+                "name": "Schezwan Egg Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219389": {
+                "id": 99219389,
+                "name": "Schezwan Chicken Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "jwlp4hvfwkughxe3elaa",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "NONVEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219390": {
+                "id": 99219390,
+                "name": "Schezwan Paneer Rice",
+                "category": "Rice Item",
+                "description": "A delicious dish of cooked rice that has been stir-fried in a wok with veggies. Paneer and Schezwan paste",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219391": {
+                "id": 99219391,
+                "name": "Mix Gobi & Egg Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 0,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "EGG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219392": {
+                "id": 99219392,
+                "name": "Mix Gobi & Paneer Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219393": {
+                "id": 99219393,
+                "name": "Mix Gobi & Kaju Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219394": {
+                "id": 99219394,
+                "name": "Mix Paneer & Kaju Rice",
+                "category": "Rice Item",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219395": {
+                "id": 99219395,
+                "name": "Gobi Manchurian & Dry",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "ebe59a3d57428a15840a9c5c0c48ed9d",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 12000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "ribbon": {
+                    "text": "Bestseller",
+                    "textColor": "#ffffff",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#b02331"
+                },
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": true,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219396": {
+                "id": 99219396,
+                "name": "Gobi 65",
+                "category": "Veg Starter",
+                "description": "Succulent califlower chunks dipped in a seasoned batter and fried to golden perfection.",
+                "cloudinaryImageId": "d1dgiomz5dut1zdm1olk",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219397": {
+                "id": 99219397,
+                "name": "Gobi Chilli",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219398": {
+                "id": 99219398,
+                "name": "Crispy Gobi Manchurian",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219399": {
+                "id": 99219399,
+                "name": "Mushroom Manchurian",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219401": {
+                "id": 99219401,
+                "name": "Mushroom 65",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219402": {
+                "id": 99219402,
+                "name": "Mushroom Chilli",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219403": {
+                "id": 99219403,
+                "name": "Paneer Chilli",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219404": {
+                "id": 99219404,
+                "name": "Paneer 65",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219405": {
+                "id": 99219405,
+                "name": "Paneer Manchurian",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "10fc1c87ac1e761894444304714010f5",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219406": {
+                "id": 99219406,
+                "name": "Paneer Tikka",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "ygjixshltxsbmgipjtow",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219407": {
+                "id": 99219407,
+                "name": "Baby Corn Manchurian",
+                "category": "Veg Starter",
+                "description": "An Indo-Chinese favourite, bite into this yummy dish of fresh Baby corn pieces cooked to perfection in Manchurian sauce!",
+                "cloudinaryImageId": "scy9glyybsh25kn0dfdn",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219408": {
+                "id": 99219408,
+                "name": "Baby Corn Chilli",
+                "category": "Veg Starter",
+                "description": "Crispy fried baby corn along with onions and capsicum, tossed in a spicy thick Chinese sauce.",
+                "cloudinaryImageId": "zm05eqewx0dhous2epxa",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 20000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99219409": {
+                "id": 99219409,
+                "name": "Veg Manchurian & Dry",
+                "category": "Veg Starter",
+                "description": "",
+                "cloudinaryImageId": "",
+                "recommended": 0,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "Serves 1",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            },
+            "99227929": {
+                "id": 99227929,
+                "name": "Schezwan Paneer Noodles",
+                "category": "Noodles",
+                "description": "",
+                "cloudinaryImageId": "d5b4cc82f4aa2ef4ebf87c9adb925fe5",
+                "recommended": 1,
+                "inStock": 1,
+                "isVeg": 1,
+                "enabled": 1,
+                "displayOrder": 0,
+                "price": 15000,
+                "variants_new": {
+                    "exclude_list": [],
+                    "variant_groups": []
+                },
+                "cropChoices": 2,
+                "itemScore": 0,
+                "itemDiscount": 0,
+                "isPopular": 0,
+                "restId": "99617",
+                "showMC": 0,
+                "attributes": {
+                    "portionSize": "",
+                    "vegClassifier": "VEG",
+                    "accompaniments": ""
+                },
+                "isHealthy": false,
+                "isBestSeller": false,
+                "itemNudgeType": "",
+                "isGuiltFree": false
+            }
+        },
+        "widgets": [
+            {
+                "name": "Recommended",
+                "subTitle": "",
+                "type": "recommended",
+                "entities": [
+                    {
+                        "id": 99219349,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219351,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219353,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219355,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219361,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 27669006,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 27669011,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99227929,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219376,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219377,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219378,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219379,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219381,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219382,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219387,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219389,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219385,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219395,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219396,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219407,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219408,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219405,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219406,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 27668997,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219324,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219325,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219327,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219331,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219336,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219338,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219347,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219356,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219348,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219350,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219352,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219342,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219344,
+                        "type": "item",
+                        "showImg": true,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Noodles",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219349,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219351,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219353,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219355,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219361,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 27669006,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219357,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 27669011,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219359,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99227929,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219364,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219367,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219369,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219370,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219372,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219374,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219375,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Rice Item",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219376,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219377,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219378,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219379,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219380,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219381,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219382,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219383,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219390,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219384,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219386,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219387,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219388,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219389,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219391,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219392,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219393,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219394,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219385,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Veg Starter",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219395,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219396,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219407,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219397,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219408,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219398,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219399,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219401,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219402,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219403,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219404,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219405,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219406,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219409,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Non Veg Starter",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 27668997,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219322,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219323,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219324,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219325,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219326,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219327,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219331,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219328,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219332,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219330,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219333,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219334,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219335,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Soups",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219336,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219337,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219338,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219339,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219340,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219341,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Kathi Roll",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219347,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219356,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219348,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219350,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219352,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219354,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219358,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            },
+            {
+                "name": "Spring Rolls",
+                "subTitle": "",
+                "type": "category",
+                "entities": [
+                    {
+                        "id": 99219342,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219343,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219344,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219345,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    },
+                    {
+                        "id": 99219346,
+                        "type": "item",
+                        "showImg": false,
+                        "showRibbon": false
+                    }
+                ],
+                "perRow": 2,
+                "collapsible": false
+            }
+        ],
+        "layoutType": "normal",
+        "healthyCollection": []
+    },
+    "aggregatedDiscountInfo": {
+        "header": "FREE DELIVERY",
+        "shortDescriptionList": [
+            {
+                "meta": "FREE DELIVERY",
+                "discountType": "FREE_DELIVERY",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "descriptionList": [
+            {
+                "meta": "FREE DELIVERY",
+                "discountType": "FREE_DELIVERY",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "30% off upto ₹150 | Use AXIS30 Above ₹200",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ]
+    },
+    "offerMeta": [
+        {
+            "header": "30% OFF UPTO ₹150",
+            "offer_tag": "",
+            "offer_logo": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+            "top_logo": "",
+            "bottom_logo": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+            "offer_info": {
+                "offer_ids": [
+                    "1bf4c489-544b-4858-aa69-5837cbd88915"
+                ],
+                "type": "offers"
+            },
+            "expiry_time": 0,
+            "coupon_code": "USE AXIS30",
+            "description": "ABOVE ₹200",
+            "secondary_discount_callout": "",
+            "show_expiry_timer": false
+        },
+        {
+            "header": "10% OFF UPTO ₹100",
+            "offer_tag": "",
+            "offer_logo": "rng/md/ads/production/5c4848f8c208408b048c18f6be604f14",
+            "top_logo": "",
+            "bottom_logo": "rng/md/ads/production/5c4848f8c208408b048c18f6be604f14",
+            "offer_info": {
+                "offer_ids": [
+                    "8b0127b6-8ffb-4f2c-a6a2-6c1f5ef73c17"
+                ],
+                "type": "offers"
+            },
+            "expiry_time": 0,
+            "coupon_code": "USE INDUSIND100",
+            "description": "ABOVE ₹699",
+            "secondary_discount_callout": "",
+            "show_expiry_timer": false
+        },
+        {
+            "header": "20% OFF UPTO ₹120",
+            "offer_tag": "",
+            "offer_logo": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+            "top_logo": "",
+            "bottom_logo": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+            "offer_info": {
+                "offer_ids": [
+                    "ff00ff8d-93ef-4407-b201-1906afb9c1b6"
+                ],
+                "type": "offers"
+            },
+            "expiry_time": 0,
+            "coupon_code": "USE FEDERALCC",
+            "description": "ABOVE ₹249",
+            "secondary_discount_callout": "",
+            "show_expiry_timer": false
+        },
+        {
+            "header": "FLAT ₹100 OFF",
+            "offer_tag": "",
+            "offer_logo": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+            "top_logo": "",
+            "bottom_logo": "rng/md/ads/production/3a937ddacd3adb70c4543c4895213123",
+            "offer_info": {
+                "offer_ids": [
+                    "f885879b-2148-4840-a1d1-f3610b5c809d"
+                ],
+                "type": "offers"
+            },
+            "expiry_time": 0,
+            "coupon_code": "USE AUDC100",
+            "description": "ABOVE ₹299",
+            "secondary_discount_callout": "",
+            "show_expiry_timer": false
+        }
+    ],
+    "itemNudgeBanners": {},
+    "aggregatedDiscountInfoV2": {
+        "header": "FREE DELIVERY",
+        "shortDescriptionList": [
+            {
+                "meta": "FREE DELIVERY",
+                "discountType": "FREE_DELIVERY",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "descriptionList": [
+            {
+                "meta": "FREE DELIVERY",
+                "discountType": "FREE_DELIVERY",
+                "operationType": "RESTAURANT"
+            },
+            {
+                "meta": "30% off upto ₹150 | Use AXIS30 Above ₹200",
+                "discountType": "Percentage",
+                "operationType": "RESTAURANT"
+            }
+        ],
+        "couponDetailsCTAText": "View coupon details",
+        "visible": false
+    },
+    "nudgeBanners": [
+        {
+            "minValue": 104.3,
+            "maxValue": 149,
+            "priority": 1,
+            "couponCode": "",
+            "discountInfo": {
+                "discountType": "FREE_DELIVERY",
+                "value": 0,
+                "operationType": "RESTAURANT"
+            },
+            "lockedMessage": "",
+            "unlockedMessage": "",
+            "minItemCount": 0,
+            "maxItemCount": 0,
+            "type": "",
+            "cta": {
+                "link": "",
+                "text": "",
+                "type": "",
+                "color": ""
+            }
+        }
+    ],
+    "restaurantLicenses": [
+        {
+            "type": "FSSAI",
+            "imageId": "fssai_final_edss9i",
+            "text": [
+                "License No. 20119019000068"
+            ]
+        }
+    ],
+    "menuTabs": [
+        {
+            "title": "Order Now",
+            "type": "menu",
+            "selected": true
+        }
+    ],
+    "vegOnlyDetails": {
+        "imageId": "AutoVegOnly_qkjowj",
+        "title": "Showing only vegetarian options.",
+        "description": "Tap on the VEG ONLY button to turn off the setting"
+    },
+    "gpInfoList": [],
+    "expectationNotifiers": [],
+    "menuCategory": [
+        {
+            "name": "Full Menu",
+            "identifier": "REGULAR",
+            "icon": "v1594205104/fullMenuActive_qcsdzt.png",
+            "unselectedIcon": "v1594205107/fullMenuInactive_fbdtp2.png",
+            "selected": true
+        }
+    ],
+    "xpConfigParams": {
+        "isNewHealthMenu": "false"
+    },
+    "cafe": false,
+    "preorderable": false,
+    "select": false,
+    "slotInvalid": false,
+    "requestId": "bcdf3636-a9a7-4183-a9ee-1584dc66c3ca",
+    "timeStamp": "1677659200051"
+}

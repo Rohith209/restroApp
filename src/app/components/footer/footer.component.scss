@@ -1,0 +1,216 @@
+$color_1: #fff;
+$color_2: #fff;
+$color_3: #fff;
+$color_4: #fff;
+$color_5: #fff;
+$background-color_1: #26272b;
+$background-color_2: #33353d;
+$background-color_3: #eceeef;
+$background-color_4: #29aafe;
+$background-color_5: #3b5998;
+$background-color_6: #00aced;
+$background-color_7: #007bb6;
+$background-color_8: #ea4c89;
+$border-top-color_1: #bbb;
+
+.site-footer {
+    padding: 35px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: $color_1;
+    background-image: url('https://img.freepik.com/free-photo/brown-wooden-flooring_53876-90802.jpg?w=900&t=st=1677340916~exp=1677341516~hmac=4b710268fb0dd752f2d4818514ea59d5ad37806bcf6e578df733ffdc2a18f30d');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    hr {
+        border-top-color: $border-top-color_1;
+        opacity: 0.5;
+    }
+
+    hr.small {
+        margin: 20px 0;
+    }
+
+    h6 {
+        color: $color_2;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 2px;
+    }
+
+    a {
+        color: $color_1;
+
+        &:hover {
+            color: $color_3;
+            text-decoration: none;
+        }
+    }
+
+    .social-icons {
+        text-align: right;
+
+        a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            margin-left: 6px;
+            margin-right: 0;
+            border-radius: 100%;
+            background-color: $background-color_2;
+        }
+    }
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+
+    li {
+        display: block;
+    }
+
+    a {
+        color: $color_1;
+
+        &:active {
+            color: $color_3;
+            text-decoration: none;
+        }
+
+        &:focus {
+            color: $color_3;
+            text-decoration: none;
+        }
+
+        &:hover {
+            color: $color_3;
+            text-decoration: none;
+        }
+    }
+}
+
+.footer-links.inline {
+    li {
+        display: inline-block;
+    }
+}
+
+.copyright-text {
+    margin: 0;
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin-bottom: 4px;
+    }
+
+    li.title {
+        margin-right: 15px;
+        text-transform: uppercase;
+        color: $color_4;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    a {
+        background-color: $background-color_3;
+        color: $color_5;
+        font-size: 16px;
+        display: inline-block;
+        line-height: 44px;
+        width: 44px;
+        height: 44px;
+        text-align: center;
+        margin-right: 8px;
+        border-radius: 100%;
+        -webkit-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+
+        &:active {
+            color: $color_2;
+            background-color: $background-color_4;
+        }
+
+        &:focus {
+            color: $color_2;
+            background-color: $background-color_4;
+        }
+
+        &:hover {
+            color: $color_2;
+            background-color: $background-color_4;
+        }
+    }
+
+    a.facebook {
+        &:hover {
+            background-color: $background-color_5;
+        }
+    }
+
+    a.twitter {
+        &:hover {
+            background-color: $background-color_6;
+        }
+    }
+
+    a.linkedin {
+        &:hover {
+            background-color: $background-color_7;
+        }
+    }
+
+    a.dribbble {
+        &:hover {
+            background-color: $background-color_8;
+        }
+    }
+}
+
+.social-icons.size-sm {
+    a {
+        line-height: 34px;
+        height: 34px;
+        width: 34px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:991px) {
+    .site-footer {
+        [class^=col-] {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0;
+
+        .copyright-text {
+            text-align: center;
+        }
+
+        .social-icons {
+            text-align: center;
+        }
+    }
+
+    .social-icons {
+        li.title {
+            display: block;
+            margin-right: 0;
+            font-weight: 600;
+        }
+    }
+}

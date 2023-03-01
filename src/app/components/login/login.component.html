@@ -1,0 +1,50 @@
+<div class="container-fluid form-wrapper">
+    <h1 class="text-center">
+        Login
+    </h1>
+    <p class="text-center">
+        Please login with the details you have registered already
+    </p>
+    <form class="row g-3" [formGroup]="loginGroup">
+        <div class="col-12">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="email"
+                formControlName="email"
+                [class.is-invalid]="loginGroup.controls['email'].invalid && (loginGroup.controls['email'].touched || loginGroup.controls['email'].dirty)">
+
+            <div class="input-error invalid-feedback"
+                *ngIf="loginGroup.controls['email'].invalid && (loginGroup.controls['email'].touched || loginGroup.controls['email'].dirty)">
+                <p *ngIf="loginGroup.controls['email']?.errors?.['required']">
+                    Email field cannot be blank!
+                </p>
+                <p *ngIf="loginGroup.controls['email']?.errors?.['email']">
+                    Please enter a valid email!
+                </p>
+            </div>
+        </div>
+        <div class="col-12">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Password" aria-label="Password" id="password"
+                formControlName="password"
+                [class.is-invalid]="loginGroup.controls['password'].invalid && (loginGroup.controls['password'].touched || loginGroup.controls['password'].dirty)">
+            <div class="input-error invalid-feedback"
+                *ngIf="loginGroup.controls['password'].invalid && (loginGroup.controls['password'].touched || loginGroup.controls['password'].dirty)">
+                <p *ngIf="loginGroup.controls['password']?.errors?.['required']">
+                    Password field cannot be blank!
+                </p>
+                <p *ngIf="loginGroup.controls['password']?.errors?.['minlength']">
+                    Password cannot be less than 5 characters!
+                </p>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary mr-2 d-inline-block"
+                (click)="submitLoginForm(loginGroup.value)" [disabled]="!loginGroup.valid">Login</button>
+            <span>Don't have an account? Create
+                <a routerLink="/register">
+                    Here
+                </a>!
+            </span>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,129 @@
+{
+    "type": "restaurant",
+    "data": {
+        "type": "F",
+        "id": "320507",
+        "name": "A2B - Adyar Ananda Bhavan",
+        "uuid": "68a883ca-f58e-4ad9-8a6d-fe8ca31eb53b",
+        "city": "120",
+        "area": "Ramesh Reddy Nagar",
+        "totalRatingsString": "10000+ ratings",
+        "cloudinaryImageId": "fkuk6qliqdvbq2aaqtxo",
+        "cuisines": [
+            "South Indian",
+            "North Indian",
+            "Sweets",
+            "Chinese"
+        ],
+        "tags": [],
+        "costForTwo": 30000,
+        "costForTwoString": "₹300 FOR TWO",
+        "deliveryTime": 19,
+        "minDeliveryTime": 19,
+        "maxDeliveryTime": 19,
+        "slaString": "19 MINS",
+        "lastMileTravel": 1.2000000476837158,
+        "slugs": {
+            "restaurant": "a2b-veg-chinna-bazar-chinna-bazar",
+            "city": "nellore"
+        },
+        "cityState": "120",
+        "address": "W/23S,DR MALL,GNT ROAD, NELLORE,ANDHRA PRADESH-524003, Nellore, Nellore(Andhra Pradesh) -524003",
+        "locality": "Chinna Bazar",
+        "parentId": 22,
+        "unserviceable": false,
+        "veg": true,
+        "select": false,
+        "favorite": false,
+        "tradeCampaignHeaders": [],
+        "aggregatedDiscountInfo": {
+            "header": "20% off",
+            "shortDescriptionList": [
+                {
+                    "meta": "20% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "descriptionList": [
+                {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+        },
+        "aggregatedDiscountInfoV2": {
+            "header": "20% OFF",
+            "shortDescriptionList": [
+                {
+                    "meta": "Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "descriptionList": [
+                {
+                    "meta": "20% off up to ₹50 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                }
+            ],
+            "subHeader": "",
+            "headerType": 0,
+            "superFreedel": ""
+        },
+        "ribbon": [
+            {
+                "type": "PROMOTED"
+            }
+        ],
+        "chain": [],
+        "feeDetails": {
+            "fees": [],
+            "totalFees": 0,
+            "message": "",
+            "title": "",
+            "amount": "",
+            "icon": ""
+        },
+        "availability": {
+            "opened": true,
+            "nextOpenMessage": "",
+            "nextCloseMessage": ""
+        },
+        "longDistanceEnabled": 0,
+        "rainMode": "NONE",
+        "thirdPartyAddress": false,
+        "thirdPartyVendor": "",
+        "adTrackingID": "cid=6079229~p=1~eid=00000186-9b82-fb6a-4749-aa0f0039014e",
+        "badges": {
+            "imageBased": [],
+            "textBased": [],
+            "textExtendedBadges": []
+        },
+        "lastMileTravelString": "1.2 kms",
+        "hasSurge": false,
+        "sla": {
+            "restaurantId": "320507",
+            "deliveryTime": 19,
+            "minDeliveryTime": 19,
+            "maxDeliveryTime": 19,
+            "lastMileTravel": 1.2000000476837158,
+            "lastMileDistance": 0,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "NONE",
+            "longDistance": "NOT_LONG_DISTANCE",
+            "preferentialService": false,
+            "iconType": "EMPTY"
+        },
+        "promoted": true,
+        "avgRating": "4.0",
+        "totalRatings": 10000,
+        "new": false
+    },
+    "subtype": "basic"
+}

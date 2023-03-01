@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+*,
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-wrapper {
+    max-width: 600px;
+    border: 1px solid #fff;
+    padding: 1.5rem;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    margin-right: 1rem;
+}
+
+main {
+    height: 90vh;
+}

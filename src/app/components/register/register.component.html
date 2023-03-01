@@ -1,0 +1,39 @@
+<div class="container-fluid form-wrapper">
+    <h1 class="text-center">
+        Register
+    </h1>
+    <p class="text-center">
+        Please register to explore the app and enjoy our services
+    </p>
+    <form class="row g-3" [formGroup]="registerGroup">
+        <div class="col-md-6">
+            <label for="username" class="form-label">User Name</label>
+            <input type="text" class="form-control" placeholder="User name" aria-label="User name" id="username"
+                formControlName="username">
+        </div>
+        <div class="col-md-6">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" placeholder="Password" aria-label="Last name" id="password"
+                formControlName="password">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail" formControlName="email" placeholder="Email">
+        </div>
+        <div class="col-md-6">
+            <label for="phNo" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" id="phNo" formControlName="phoneNumber"
+                placeholder="Phone Number">
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary mr-2 d-inline-block"
+                (click)="sendRegistrationData(registerGroup.value)" [disabled]="!registerGroup.valid">Sign in</button>
+            <span>Already have an account? Login
+                <a routerLink="/login">
+                    Here
+                </a>!
+            </span>
+        </div>
+    </form>
+</div>

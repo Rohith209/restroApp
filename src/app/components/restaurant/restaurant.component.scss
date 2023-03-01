@@ -1,0 +1,150 @@
+.restaurantmenu-container {
+    background: linear-gradient(0deg, #0000000d, #0000);
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 7rem;
+    display: flex;
+}
+
+.restaurantmenu-container>.restaurantmenu-details-container {
+    align-items: flex-start;
+    line-height: 2rem;
+    display: flex;
+}
+
+.restaurant-menu-container .restaurant-menu-item {
+    &:hover {
+        border: 1px solid #e0d7d7;
+        box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.2509803922), 0 3px 7px -3px rgba(0, 0, 0, 0.3019607843);
+    }
+}
+
+.restaurantmenu-container>.restaurantmenu-details-container>img {
+    height: 10rem;
+    padding-right: 3rem;
+}
+
+.restaurantmenu-details {
+    padding-right: 3rem;
+}
+
+.restaurantmenu-details-header {
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.restaurantmenu-container p,
+label {
+    color: #888484;
+    font-size: 14px;
+}
+
+.restaurantmenu-details-review {
+    align-items: end;
+    display: flex;
+}
+
+.restaurantmenu-details-review div {
+    margin-right: 4rem;
+    line-height: normal;
+}
+
+.restaurantmenu-details-review p {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.restaurantmenu-details-review label {
+    font-size: 12px;
+}
+
+.restaurantmenu-container>.restaurantmenu-offer {
+    width: 25%;
+    color: #000 !important;
+}
+
+.restaurantmenu-offer div {
+    border: 1px solid #0000004d;
+    padding: 1rem;
+    transition: transform .2s ease-in-out;
+    position: relative;
+    transform: translateZ(0);
+}
+
+.restaurantmenu-offer div h3 {
+    display: inline-block;
+    width: auto;
+}
+
+.restaurantmenu-offer p {
+    padding: 1rem 0;
+    font-weight: 600;
+    display: flex;
+    color: #000 !important;
+}
+
+.restaurant-menu-widget {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    line-height: 2rem;
+}
+
+.restaurant-menu-item {
+    padding: 1rem;
+}
+
+.restaurant-menu-item .menu-details {
+    line-height: 1.5rem;
+}
+
+.restaurant-menu-item>.menu-add-item {
+    display: flex;
+}
+
+.restaurant-menu-item .menu-des {
+    color: #a59f9f;
+    padding-top: .5rem;
+    font-size: 14px;
+}
+
+.menu-add-btn2 div {
+    align-items: center;
+    padding: .5rem .7rem;
+    font-size: 1rem;
+}
+
+.menu-add-btn2 {
+    justify-content: space-between;
+    display: flex;
+    left: 13%;
+}
+
+.menu-add-btn,
+.menu-add-btn2 {
+    color: #5bde2b;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ebf5dd;
+    border-radius: .2rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.restaurant-menu-container {
+    padding: 0 7rem;
+    display: flex;
+}
+
+@media (max-width: 1400px) {
+    .restaurantmenu-container {
+        align-items: center;
+        display: block;
+    }
+
+    .restaurantmenu-container>.restaurantmenu-offer {
+        width: 100%;
+        margin-top: 2rem;
+    }
+}

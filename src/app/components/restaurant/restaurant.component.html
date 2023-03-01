@@ -1,0 +1,65 @@
+<app-header></app-header>
+
+<div class="restaurantmenu-container">
+    <div class="restaurantmenu-details-container"><img
+            src="{{RESTAURANTS_IMG_URL}}{{IndividualRestaurantData.data.cloudinaryImageId}}" alt="restaurantimg">
+        <div class="restaurantmenu-details">
+            <h1 class="restaurantmenu-details-header">{{IndividualRestaurantData.data.name}}</h1>
+            <p>{{IndividualRestaurantData.data.cuisines}}</p>
+            <p>{{IndividualRestaurantData.data.locality}}, {{IndividualRestaurantData.data.city}}</p>
+            <div class="restaurantmenu-details-review">
+                <div>
+                    <p>★&nbsp;{{IndividualRestaurantData.data.avgRatingString}}</p>
+                    <label>{{IndividualRestaurantData.data.totalRatingsString}}</label>
+                </div>
+                <div>
+                    <p>{{IndividualRestaurantData.data.sla.slaString}}</p><label>Delivery Time</label>
+                </div>
+                <div>
+                    <p>{{IndividualRestaurantData.data.costForTwoMsg}}</p><label>Cost for two</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="restaurantmenu-offer">
+        <div>
+            <h3>OFFERS</h3>
+            <p *ngFor="let data of IndividualRestaurantData.data.offerMeta"><svg xmlns="http://www.w3.org/2000/svg"
+                    width="24" height="16px" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M7.5,6A1.5,1.5,0,1,0,9,7.5,1.5,1.5,0,0,0,7.5,6Zm13.62,4.71L12.71,2.29A1,1,0,0,0,12,2H3A1,1,0,0,0,2,3v9a1,1,0,0,0,.29.71l8.42,8.41a3,3,0,0,0,4.24,0L21.12,15a3,3,0,0,0,0-4.24Zm-1.41,2.82h0l-6.18,6.17a1,1,0,0,1-1.41,0L4,11.59V4h7.59l8.12,8.12a1,1,0,0,1,.29.71A1,1,0,0,1,19.71,13.53Z">
+                    </path>
+                </svg> &nbsp;{{data.header}} | &nbsp;{{data.coupon_code}} | &nbsp;{{data.description}}
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="restaurant-menu-container container">
+    <div class="row">
+        <div class="restaurant-menu-item col-4 g-3" *ngFor="let menuData of temp">
+
+            <div class="menu-details">
+                <div class="item-img">
+                    <img src="{{RESTAURANTS_IMG_URL}}{{IndividualRestaurantData.data.menu.items[menuData].cloudinaryImageId}}"
+                        class="w-100" alt="{{IndividualRestaurantData.data.menu.items[menuData].name}}">
+                </div>
+                <h4>{{IndividualRestaurantData.data.menu.items[menuData].name}}</h4>
+                <p class="menu-des">
+                    {{IndividualRestaurantData.data.menu.items[menuData].description}}
+                </p>
+                <p>₹&nbsp;{{IndividualRestaurantData.data.menu.items[menuData].price/100}}</p>
+                <p>
+                    #
+                    {{IndividualRestaurantData.data.menu.items[menuData].category}}
+                </p>
+            </div>
+            <div class="menu-add-item"><button class="menu-add-btn2">
+                    <div><span>-</span></div>
+                    <div><span>0</span></div>
+                    <div><span>+</span></div>
+                </button></div>
+        </div>
+    </div>
+
+</div>
